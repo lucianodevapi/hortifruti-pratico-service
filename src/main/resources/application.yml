@@ -12,5 +12,6 @@ spring:
     name: hortifruti-pratico-service
   data:
     mongodb:
-      uri: mongodb+srv://lucianodepaula:1100#Mongo@cluster0.3ghsg.mongodb.net/?retryWrites=true&w=hortifruti_pratico
-      database: hortifruti_pratico
+      host: localhost
+      port: 27017
+      database: horifruti_pratico
