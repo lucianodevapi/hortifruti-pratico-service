@@ -73,6 +73,7 @@ public class EstabeleciementoController {
 				if(request.getOnline() != estabelecimento.getOnline()) {
 					estabelecimento.setOnline(request.getOnline());
 				}
+				estabelecimento.setUpdatedAt(new Date());
 
 			} else {
 				return ResponseEntity.badRequest().body(new MessageResponse("Error: Estabelecimento não encontraco"));

@@ -11,7 +11,6 @@ public class EstabelecimentoAddRequest implements Serializable {
 	private String logo;
 	private boolean bloqueado;
 	private int online;
-	private String updatedAt;
 
 	public EstabelecimentoAddRequest() {
 		super();
@@ -55,14 +54,6 @@ public class EstabelecimentoAddRequest implements Serializable {
 
 	public void setOnline(int online) {
 		this.online = online;
-	}
-
-	public String getUpdatedAt() {
-		return updatedAt;
-	}
-
-	public void setUpdatedAt(String updatedAt) {
-		this.updatedAt = updatedAt;
 	}
 
 }
